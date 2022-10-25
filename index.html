@@ -3,6 +3,9 @@
     <head>
         <title>박내은의 홈페이지</title>
         <link href="./practice.css" rel="stylesheet" type="text/css">
+
+        <script type="text/javascript" src="add_two_numbers.js"></script>
+        <script type="text/javascript" src="what_time_is_it.js"></script>
     </head>
     <body>
         <nav>
@@ -16,6 +19,17 @@
         <h3>세 번째 크기 헤드라인</h3>
         <h4>네 번째 크기 헤드라인</h4>
         <h5>다섯 번째 크기 헤드라인</h5>
+
+        <button onclick="whatTimeIsIt()">현재시간</button>
+        <hr />
+
+        <label for="inputA">a</label>
+        <input id="inputA" value=1 onkeyup="doSomething()">
+        <label for="inputB">b</label>
+        <input id="inputB" value=2 onkeyup="doSomething()">
+
+        <p><span id="ValueA">1</span> + <span id="ValueB">2</span> = <span id="ValueC">3</span>입니다.</p>
+
         <p>문단은 p로 쓰세요. p는 아마도 Paragraph의 앞글자를 따온 것이겠죠?</p>
         <a href="https://www.google.com">Go to google</a>
         <hr/> <!--수평선 그리기-->
